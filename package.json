@@ -1,0 +1,19 @@
+{
+  "name": "typebox_schemas",
+  "version": "1.0.0",
+  "description": "Models to be used on API, Frontend and Backend",
+  "author": "Pablo Pasqualino <cooliopas@users.noreply.github.com>",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.20.6"
+  }
+}
